@@ -1,0 +1,38 @@
+{
+  "name": "reduxtemplate",
+  "version": "1.0.0",
+  "slug": "reduxtemplate",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-navigation/core": "^6.1.1",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/stack": "^6.1.1",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@types/react-redux": "^7.1.23",
+    "expo": "~47.0.12",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-web": "~0.18.9",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-redux": "^7.2.6",
+    "expo-splash-screen": "~0.17.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "~0.70.6",
+    "typescript": "^4.6.3",
+    "babel-loader": "^8.3.0"
+  },
+  "private": true
+}
